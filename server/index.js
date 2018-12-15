@@ -22,9 +22,9 @@ exports.deployment = async (start) => {
 };
 
 if (!module.parent) {
-
+    
     exports.deployment(true);
-
+  
     process.on('unhandledRejection', (err) => {
 
         throw err;
