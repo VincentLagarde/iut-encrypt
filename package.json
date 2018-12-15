@@ -3,6 +3,7 @@
   "version": "2.2.0",
   "main": "lib/index.js",
   "scripts": {
+    "knex": "knex",
     "start": "node server",
     "test": "lab -a code -I 'core,__core-js_shared__' -L",
     "lint": "eslint ."
