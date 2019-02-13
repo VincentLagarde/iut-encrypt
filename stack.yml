@@ -6,6 +6,8 @@ services:
     image: postgres
     restart: always
     environment:
+      - POSTGRES_HOST=localhost
+      - POSTGRES_PORT=5432
       - POSTGRES_USER=hapi
       - POSTGRES_PASSWORD=hapi
       - POSTGRES_DB=unilim
