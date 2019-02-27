@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "boom": "7.x.x",
+    "faker": "^4.1.0",
     "hapi-swagger": "^9.3.0",
     "haute-couture": "3.x.x",
     "inert": "^5.1.2",
